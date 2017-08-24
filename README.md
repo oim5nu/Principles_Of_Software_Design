@@ -1,7 +1,7 @@
 # Principles_Of_Software_Design
 Six Principles Of Software Design
 
-## Single Responsibility Principle (SRP)
+## I. Single Responsibility Principle (SRP)
 
 ### Purpose
 * Reduce Class/Interface complexity, increase readibility, maintenability, extendability. Also reduce the risk of modifications.
@@ -16,7 +16,7 @@ Six Principles Of Software Design
 * Responsibilities and reasons of modification are hard to measure in practical projects
 * Interface must be undertaken with SRP, and Class should only be modified by ONE REASON.
 
-## Liskov Substitution Principle (LSP)
+## II. Liskov Substitution Principle (LSP)
 
 ### Purpose
 * Increase program robustnesss when adding more derived class. 
@@ -35,7 +35,7 @@ base class avoiding logic chaos.
 ### Practical Experience
 * Try not to inject extra properties or methods into the derived different from the base
 
-## Dependence Inversion Principle (DIP)
+## III. Dependence Inversion Principle (DIP)
 
 ### Purpose
 * Decoupling classes, reduce the risk of parallel coding
@@ -56,7 +56,7 @@ base class avoiding logic chaos.
 * Interface is resposible for defining public properties and methods, and declaring dependent relationships with other objects.
   Abstract class is responsible for implementation of common features and logic.
 
-## Interface Segregation Principle (ISP)
+## IV. Interface Segregation Principle (ISP)
 ### Purpose
 * High cohesion, reduce interactions(public methods) between modules, less code, less cost 
 
@@ -75,7 +75,7 @@ base class avoiding logic chaos.
 * Try to alter polluted intefaces, if high risky, use adapter patterns to fix it. ?????
 * Domain experience is important
 
-## Law of Demeter (LoD) / Least Knowledge Principle (LKP)
+## V. Law of Demeter (LoD) / Least Knowledge Principle (LKP)
 
 ### Purpose
 * Decoupling classes
@@ -91,7 +91,7 @@ base class avoiding logic chaos.
 * Applying Lod may produce quite a few transit classes, leading to complexity of program and high maintenance. There should be 
   a balance between clear structure and high cohesion, less coupling. 
   
-## Open Close Principle (OCP)
+## VI. Open Close Principle (OCP)
 
 ### Purpose
 
@@ -123,7 +123,7 @@ base class avoiding logic chaos.
 * Encapsulate similar modifications into one interface or abstract class
 * Encapsulate different modifications into different interfaces or abstract classes
 
-## Conclusion
+# Conclusion
 * SRP: Classs should have single responsibility
 * LSP: Don't destroy the mechanism of inheritance
 * DIP: Interface Oriented Programming
