@@ -124,12 +124,12 @@ base class avoiding logic chaos.
 * Encapsulate different modifications into different interfaces or abstract classes
 
 ## Conclusion
-SRP: Classs should have single responsibility
-LSP: Don't destroy the mechanism of inheritance
-DIP: Interface Oriented Programming
-ISP: Simplify/minimise interface
-LoD: Reduce coupling between classes
-OCP: Open to extensions, Close to modifications
+* SRP: Classs should have single responsibility
+* LSP: Don't destroy the mechanism of inheritance
+* DIP: Interface Oriented Programming
+* ISP: Simplify/minimise interface
+* LoD: Reduce coupling between classes
+* OCP: Open to extensions, Close to modifications
 
 
  
